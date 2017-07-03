@@ -1,0 +1,13 @@
+//apply plugin: 'war'
+plugins {
+    id 'org.akhikhl.gretty' version '1.4.2'
+    id 'war'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+}
